@@ -1,0 +1,139 @@
+section.hero{
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.hero-background{
+    margin: 0 -9999px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-background img{
+    display: block;
+    margin: auto;
+}
+
+.hero-content{
+    width: 100%;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.hero-content-relative{
+  position: relative !important;
+}
+
+.center-container{
+    max-width: 960px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.bill-title{
+    font-size: 24px;
+    line-height: 37px;
+    font-weight: normal;
+    padding: 0px 0 50px;
+    color: #000;
+    text-align: center;
+}
+
+.bill-desc{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: normal;
+    padding: 0px;
+    color: #000;
+    text-align: center;
+}
+
+.icon-lock{
+    background: url(../resources/lock.png) left center no-repeat;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.link-button-container{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 25px 0px 0;
+    display: block;
+}
+
+.leader-container{
+    float: left;
+    width: 100%;
+    padding: 75px 0px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.leader-title{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    padding: 0px;
+    color: #333333;
+    width: 100%;
+    text-align: center;
+}
+
+.leader-desc{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    padding: 10px 0 30px;
+    color: #414040;
+    width: 100%;
+    text-align: center;
+}
+
+.leader-list{
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.leader-list li{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    padding: 0 .5%;
+    position: relative;
+    min-width: 23%;
+    max-width: 23%;
+    vertical-align: top;
+}
+
+.article-box{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.article-image{
+    padding: 0 0 10px 0px;
+    min-height: 85px;
+    text-align: center;
+    position: relative;
+}
+
+.article-title{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    padding: 3px 0;
+    color: #000;
+}
